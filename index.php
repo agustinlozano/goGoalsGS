@@ -681,129 +681,87 @@
       </div>
     </div>-->
     <!-- the game section: board, dice, snakes, ladders, and all that jazz...-->
+
+
     <div id="game">
 
       <div class="controlBoard float-left mt-3 " style="max-width: 16rem;">
         <div class="divRuleta text-center" >
-
-
-
           <img class="marker" src="img/markerODS.png">
           <img class="wheel" src="img/ruleta.png">
           <img class= "fondoRuleta" src="img/fondoRuleta1.png" width="100%;" alt="">
-
           <button type="button" class="btn btn-success buttonWheel " name="button">Girá la ruleta</button>
-
-    <div class="">
-      <span class= "wheelTextBefore" >Mueve </span> <div id="wheelResult"></div> <span class ="wheelTextAfter"> Casilleros </span>
-    </div>
-
-      </div>
-            <!-- <i class="fas fa-chess-pawn" id="wheelPlayer"></i> -->
-
-
-
-
-      </div>
-
-
-    <div class="float-right controlDerecha controlBoard" style="max-width: 16rem;">
-    <div class="fondoDerecha">
-      <img class = "imgFondoDer"src="img/fondoControl2.png" width="100%;" alt="">
-
-
-      <!--label#dice.tab-->
-
-      <div class="card  divTurno mb-3 " style="border-color: transparent; background-color:transparent;">
-
-        <div class="divRueda">
-
-        </div>
-
-
-        <div class="tab" id="action">
-
-
-          <div class="tab" id="">
-
-            <span> Turno</span>
-             <br>
-             <div class="divPeonText" >
-
-               <img class="turnPeon" src="img/peon3-01.png" id="turn-player-info" width= 20px; alt="">
-               <span class="img-text" id="turn-player-number">""</span>
-             </div>
-
-
-
-              <!-- <i class="mb-3 fas fa-chess-pawn" id="turn-player-info"></i> -->
-
-
-
-
-
-
-
+          <div class="">
+            <span class= "wheelTextBefore" >Mueve </span> <div id="wheelResult"></div> <span class ="wheelTextAfter"> Casilleros </span>
           </div>
-          <div class="divNextButton">
-            <button class=" btn-primary nextButton" type="button" name="button">Siguiente Turno</button>
+        </div>
+        <!-- <i class="fas fa-chess-pawn" id="wheelPlayer"></i> -->
+      </div>
+
+      <div class="float-right controlDerecha controlBoard" style="max-width: 16rem;">
+        <div class="fondoDerecha">
+          <img class="imgFondoDer" src="img/fondoControl2.png" width="100%;" alt="">
+          <!--label#dice.tab-->
+
+          <div class="card  divTurno mb-3 " style="border-color: transparent; background-color:transparent;">
+            <div class="divRueda">
+            </div>
+            <div class="tab" id="action">
+              <div class="tab" id="">
+                <span> Turno</span>
+                <br>
+                <div class="divPeonText" >
+                  <img class="turnPeon" src="img/peon3-01.png" id="turn-player-info" width= 20px; alt="">
+                  <span class="img-text" id="turn-player-number">""</span>
+                </div>
+                  <!-- <i class="mb-3 fas fa-chess-pawn" id="turn-player-info"></i> -->
+              </div>
+              <div class="divNextButton">
+                <button class=" btn-primary nextButton" type="button" name="button">Siguiente Turno</button>
+              </div>
+              <label id="turn-changer1" for="turn1"></label>
+              <label id="turn-changer2" for="turn2"></label>
+              <label id="turn-changer3" for="turn3"></label>
+              <label id="turn-changer4" for="turn4"></label>
+            </div>
           </div>
 
-          <label id="turn-changer1" for="turn1"></label>
-          <label id="turn-changer2" for="turn2"></label>
-          <label id="turn-changer3" for="turn3"></label>
-          <label id="turn-changer4" for="turn4"></label>
+          <!-- Controles Para que suene y se detenga la música de fondo. -->
+          <div class="divPlay mx-auto ">
+            <button id="playButton"><i class="fas fa-music"></i></i></button>
+          </div>
 
+          <audio id="backgroundMusic">
+            <source src='audio/mr_clown.mp3' type='audio/mpeg'/>
+          </audio>
+
+          <audio id="wheelSound">
+            <source src='audio/zapsplat_multimedia_wheel_of_fortune_style_wheel_spin_004_13212.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="wheelResultSound">
+            <source src='audio/zapsplat_impacts_metal_hit_chime_scraper_002_10172.mp3' type='audio/mpeg'/>
+          </audio>
+
+          <audio id="moveForwardSound">
+            <source src='audio/sport_badminton_racket_fast_movement_swoosh_003.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="slideSound">
+            <source src='audio/zapsplat_cartoon_descend_whistle_air_001_28921.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="ladderSound">
+            <source src='audio/zapsplat_cartoon_ascend_rise_short_slide_001_50521.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="returnSound">
+            <source src='audio/zapsplat_multimedia_game_sound_wooden_light_delay_negative_001_40789.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="odsSound">
+            <source src='audio/zapsplat_multimedia_game_sound_kids_game_bright_plucked_positive_ping_twingle_tone_002_53781.mp3' type='audio/mpeg'/>
+          </audio>
+          <audio id="llegadaSound">
+              <source src='audio/zapsplat_multimedia_game_sound_bold_warm_70s_retro_synth_positive_gain_award_51321.mp3' type='audio/mpeg'/>
+          </audio>
         </div>
-
       </div>
-
-    <!-- Controles Para que suene y se detenga la música de fondo. -->
-
-
-        <div class="divPlay mx-auto ">
-          <button id="playButton"><i class="fas fa-music"></i></i></button>
-        </div>
-
-        <audio id="backgroundMusic">
-          <source src='audio/mr_clown.mp3' type='audio/mpeg'/ >
-        </audio>
-
-        <audio id="wheelSound">
-          <source src='audio/zapsplat_multimedia_wheel_of_fortune_style_wheel_spin_004_13212.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="wheelResultSound">
-          <source src='audio/zapsplat_impacts_metal_hit_chime_scraper_002_10172.mp3' type='audio/mpeg'/>
-        </audio>
-
-        <audio id="moveForwardSound">
-          <source src='audio/sport_badminton_racket_fast_movement_swoosh_003.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="slideSound">
-          <source src='audio/zapsplat_cartoon_descend_whistle_air_001_28921.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="ladderSound">
-          <source src='audio/zapsplat_cartoon_ascend_rise_short_slide_001_50521.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="returnSound">
-          <source src='audio/zapsplat_multimedia_game_sound_wooden_light_delay_negative_001_40789.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="odsSound">
-          <source src='audio/zapsplat_multimedia_game_sound_kids_game_bright_plucked_positive_ping_twingle_tone_002_53781.mp3' type='audio/mpeg'/>
-        </audio>
-        <audio id="llegadaSound">
-            <source src='audio/zapsplat_multimedia_game_sound_bold_warm_70s_retro_synth_positive_gain_award_51321.mp3' type='audio/mpeg'/>
-        </audio>
-
-
-
-
-
-
-
-
-    </div>
-    </div>
 
       <!-- Board based on the one from codewars: https://www.codewars.com/kata/snakes-and-ladders-1 -->
       <div id="board">
