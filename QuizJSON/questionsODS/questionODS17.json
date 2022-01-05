@@ -1,6 +1,6 @@
 [
   {
-    "question": "Una alianza es:"
+    "question": "Una alianza es:",
     "choice1": "Cuando juegas con tus amigos fingiendo que son adultos",
     "choice2": "Cuando las personas y las organizaciones se apoyan mutuamente para alcanzar una meta común",
     "choice3": "Cuando dos alumnos comen en la misma mesa cada día",
@@ -32,7 +32,7 @@
     "choice1": "Ciudadanos",
     "choice2": "Gobiernos",
     "choice3": "Empresa",
-    "choice4" "Todos",
+    "choice4": "Todos",
     "answer": 4
   }
 ]

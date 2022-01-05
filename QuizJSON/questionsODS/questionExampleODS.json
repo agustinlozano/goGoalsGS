@@ -1,37 +1,37 @@
 [
   {
-    "question": "¿?"
+    "question": "¿?",
     "choice1": "",
     "choice2": "",
     "choice3": "",
-    "answer": 
+    "answer": 1
   },
   {
     "question": "¿?",
     "choice1": "",
     "choice2": "",
     "choice3": "",
-    "answer":
+    "answer": 2
   },
   {
     "question": "¿?",
     "choice1": "",
     "choice2": "",
     "choice3": "",
-    "answer":
+    "answer": 4
   },
   {
     "question": "¿?",
     "choice1": "",
     "choice2": "",
     "choice3": "",
-    "answer":
+    "answer": 2
   },
   {
     "question": "¿?",
     "choice1": "",
     "choice2": "",
     "choice3": "",
-    "answer":
+    "answer": 1
   }
 ]
