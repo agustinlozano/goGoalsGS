@@ -1957,40 +1957,31 @@
       </div>
     </div>
 
+    <!-- Modificacion en identacion de tarjeta de Objetivos de Desarrollo Sostenible por: Agustin
+      Esta tarjeta sale cuando un jugador cae en un casillero rojo -->
     <div class="scrim ods-popup" id="ods-popup">
       <div class="box question-box">
         <div class="ods-popupHeader">
-
-
-        <h1>Casillero de Pregunta</h1>
-        <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
+          <h1>Casillero de Pregunta</h1>
+          <span onclick="document.getElementById('ods-popup').style.display='none'" class="closePopUp">&times;</span>
         </div>
         <div>
           <p>Responde una pregunta y si es correcta puedes girar nuevamente la ruleta!</p>
-
           <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ODS1Modal">
-      Ver Pregunta
-    </button>
-
-          <div>
-
-          </div>
-
+            Ver Pregunta
+          </button>
         </div>
-
-    <div class="divImgPregunta">
-
-
-
+      </div>
+      <div class="divImgPregunta">
         <img id ="imgPregunta" class = "imgTarjeta" src="img/Tarjeta2_pregunta.png" height="80px" alt="">
         <!-- <svg viewBox="0 0 100 100"> -->
           <!-- <path d="M5,85 20,10" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
           <!-- <path d="M10,67 30,71 M15,45 35,49 M20,23 40,27" stroke="#aB6533" stroke-width="5" stroke-linecap="round"></path> -->
           <!-- <path d="M30,90 45,15" stroke="#8B4513" stroke-width="10" stroke-linecap="round"></path> -->
         <!-- </svg> -->
+      </div>
+    </div>
 
-    </div>
-    </div>
     <!-- Modal -->
     <div class="modal fade" style="margin-top: 20px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
       <div class="modal-dialog">
