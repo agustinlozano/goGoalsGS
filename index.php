@@ -586,12 +586,12 @@
 
     <input class="cb cbLlegada" type="radio" name="cb-player4" id="cb-pl4-64" value="64"/>
 
-    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-65" value="65"/
+    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-65" value="65"/>
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-66" value="66"/>
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-67" value="67"/>
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-68" value="68"/>
 
-    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-69" value="69"/
+    <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-69" value="69"/>
     <input class="cb cbReturn" type="radio" name="cb-player4" id="cb-pl4-70" value="70"/>
 
     <!-- game settings menu (# of players, colors) -->
@@ -1299,7 +1299,6 @@
                  xlink:href="#rect2387" />
             </g>
           </g>
-
         </svg>
 
 
@@ -1320,8 +1319,7 @@
                   style="stop-color:#000000"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <filter
                 id="filter3798"
                 height="1.916"
@@ -1336,8 +1334,7 @@
                   stdDeviation="4.2729117"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <linearGradient
                 id="linearGradient3814"
                 y2="92.04"
@@ -1378,8 +1375,7 @@
                   style="stop-color:#000000;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <linearGradient
                 id="linearGradient4731"
                 y2="-76.669"
@@ -1399,8 +1395,7 @@
                   style="stop-color:#cccccc;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <linearGradient
                 id="linearGradient4733"
                 y2="-79.43"
@@ -1420,8 +1415,7 @@
                   style="stop-color:#ffe680;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <filter
                 id="filter3798-7"
                 width="1.8597"
@@ -1436,8 +1430,7 @@
                   stdDeviation="4.2729117"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <filter
                 id="filter6025"
                 height="1.3933"
@@ -1452,8 +1445,7 @@
                   stdDeviation="8.9247651"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <filter
                 id="filter6068"
                 height="1.3872"
@@ -1468,8 +1460,7 @@
                   stdDeviation="8.3084212"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <linearGradient
                 id="linearGradient7017"
                 y2="-96.183"
@@ -1490,8 +1481,7 @@
                   style="stop-color:#000000;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <linearGradient
                 id="linearGradient7019"
                 y2="-76.669"
@@ -1512,8 +1502,7 @@
                   style="stop-color:#cccccc;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <linearGradient
                 id="linearGradient7021"
                 y2="-79.43"
@@ -1534,8 +1523,7 @@
                   style="stop-color:#ffe680;stop-opacity:0"
                   offset="1"
               />
-            </linearGradient
-            >
+            </linearGradient>
             <filter
                 id="filter7060"
                 height="1.3996"
@@ -1550,8 +1538,7 @@
                   stdDeviation="29.967016"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <filter
                 id="filter7060-4"
                 width="1.6008"
@@ -1566,8 +1553,7 @@
                   stdDeviation="29.967016"
                   inkscape:collect="always"
               />
-            </filter
-            >
+            </filter>
             <linearGradient
                 id="linearGradient4885"
                 y2="314.48"
@@ -1578,8 +1564,7 @@
                 x1="-399.45"
                 inkscape:collect="always"
             />
-          </defs
-          >
+          </defs>
           <sodipodi:namedview
               id="namedview4"
               fit-margin-left="0"
@@ -1653,10 +1638,8 @@
               />
 
 
-            </g
-            >
-          </g
-          >
+            </g>
+          </g>
 
           <g
               id="g4914"
@@ -1706,10 +1689,8 @@
               />
 
 
-            </g
-            >
-          </g
-          >
+            </g>
+          </g>
 
           <g
               id="g4915"
@@ -1759,10 +1740,8 @@
               />
 
 
-            </g
-            >
-          </g
-          >
+            </g>
+          </g>
 
           <metadata
             >
@@ -1958,7 +1937,7 @@
     </div>
 
     <!-- Modificacion en identacion de tarjeta de Objetivos de Desarrollo Sostenible por: Agustin
-      Esta tarjeta sale cuando un jugador cae en un casillero rojo -->
+      Esta tarjeta sale cuando un jugador cae en un casillero especial -->
     <div class="scrim ods-popup" id="ods-popup">
       <div class="box question-box">
         <div class="ods-popupHeader">
@@ -1982,7 +1961,7 @@
       </div>
     </div>
 
-    <!-- Modal -->
+    <!-- Modal: esto esta hardcodeado -->
     <div class="modal fade" style="margin-top: 20px;" id="ODS1Modal" tabindex="-1" aria-labelledby="ODS1ModalLabel" aria-hidden="true">
       <div class="modal-dialog">
         <div class="modal-content">
@@ -2028,6 +2007,7 @@
         </div>
       </div>
     </div>
+
     <div id="divCorrect">
 
     </div>
